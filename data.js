@@ -8,7 +8,7 @@ const CAS_SPOTIFY = {
   "K.": "",
   "Each Time You Fall In Love": "",
   "Sunsetz": "",
-  "Apocalypse": "",
+  "Apocalypse": "https://open.spotify.com/track/1oAwsWBovWRIp7qLMGPIet?si=VRHVtVEWQMaZMiLgDqXM8w&utm",
   "Flash": "",
   "Sweet": "",
   "Opera House": "",

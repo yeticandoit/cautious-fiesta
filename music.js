@@ -128,11 +128,21 @@ function loadQueueItem(autoPlay = false) {
   const item = queue[queueIndex];
   if (!item) return;
 
-  player.classList.remove("hidden");
+    player.classList.remove("hidden");
   playerTitle.textContent = item.title;
   playerRelease.textContent = item.release;
   playerArt.className = `player-art cover ${item.color}`;
-  playerArt.textContent = "CAS";
+  playerArt.textContent = "";
+
+  if (item.cover) {
+    playerArt.style.backgroundImage = `url("${item.cover}")`;
+    playerArt.style.backgroundSize = "contain";
+    playerArt.style.backgroundPosition = "center";
+    playerArt.style.backgroundRepeat = "no-repeat";
+    playerArt.style.backgroundColor = "#121010";
+  } else {
+    playerArt.style.backgroundImage = "";
+  }
   progress.value = 0;
   currentTime.textContent = "0:00";
   duration.textContent = "0:00";

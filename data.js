@@ -48,7 +48,6 @@ const CAS_SPOTIFY = {
 };
 
 const CAS_RELEASES = [
-  const CAS_RELEASES = [
   {
     title: "I.",
     year: "2012",

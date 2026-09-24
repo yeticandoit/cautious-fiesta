@@ -1,5 +1,5 @@
 const CAS_SPOTIFY = {
-  "Nothing's Gonna Hurt You Baby": "https://open.spotify.com/track/1oAwsWBovWRIp7qLMGPIet?si=VRHVtVEWQMaZMiLgDqXM8w&utm_source=whatsapp",
+  "Nothing's Gonna Hurt You Baby": "https://open.spotify.com/track/3W7KHojYGgYaoX9ogKO9hU?si=sd4RxDh8QMe3Kxs9rO85oA&utm_source=copy-link",
   "I'm a Firefighter": "",
   "Dreaming of You": "",
   "Starry Eyes": "",
